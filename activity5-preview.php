@@ -12,7 +12,7 @@
 // Formdan alınan verileri doğrulayın ve yazdırın.
 $name = isset($_POST['name']) ? $_POST['name'] : 'Not provided';
 $username = isset($_POST['username']) ? $_POST['username'] : 'Not provided';
-$password = isset($_POST['password']) ? $_POST['password'] : 'Not provided'; // Gerçek uygulamada parola gösterilmemeli!
+$password = isset($_POST['password']) ? $_POST['password'] : 'Not provided';
 $address = isset($_POST['address']) ? $_POST['address'] : 'Not provided';
 $country = isset($_POST['country']) ? $_POST['country'] : 'Not provided';
 $zip = isset($_POST['zip']) ? $_POST['zip'] : 'Not provided';
@@ -23,7 +23,7 @@ $about = isset($_POST['about']) ? $_POST['about'] : 'Not provided';
 
 echo "<p>$name</p>";
 echo "<p>$username</p>";
-echo "<p>$password</p>"; // Gerçek uygulamada parola gösterilmemeli!
+echo "<p>$password</p>"; 
 echo "<p>Address: $address</p>";
 echo "<p>$country</p>";
 echo "<p>Zip: $zip</p>";
